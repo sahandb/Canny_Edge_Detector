@@ -8,19 +8,15 @@ Canny edge detection is a technique to extract useful structural information fro
 # Steps:
 
 At first I turn the image to grayscale
-•
-Step 1 : First is gaussian kernel for noise reduction
-•
-Step 2 : then we use Sobel filtering for get the gradient intensity and edges direction of image
-matrix
-•
-Step 3 : Now preform non max suppression to thin out the edges and it goes through all points in
-gradient intensity matrix
-•
-Step 4 : Double threshold for finding weak and strong and non relevant(for next step
-•
-Step 5 : Here is continue of previous part and will search around every pixels and if exist any
-strong one near that change the value of that to strong pixel
+• Step 1 : First is gaussian kernel for noise reduction.
+
+• Step 2 : then we use Sobel filtering for get the gradient intensity and edges direction of image matrix.
+
+• Step 3 : Now preform non max suppression to thin out the edges and it goes through all points in gradient intensity matrix.
+
+• Step 4 : Double threshold for finding weak and strong and non relevant(for next step).
+
+• Step 5 : Here is continue of previous part and will search around every pixels and if it exists any of the strong one near them, that change the value of that to strong pixel.
 
 
 # Notice
